@@ -1,0 +1,135 @@
+.{
+    padding: 0;
+    margin: 0;
+}
+.logo{
+    width: 250px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.navbar{
+    background-color: black !important;
+    height:80px;
+}
+.navbar-toggler{
+    background-color: red !important;
+    
+}
+.nav-link{
+    color: red !important;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+.nav-link:hover{
+    background-color: white;
+    border-radius: 10px;
+    transition: 0.3s;
+    
+}
+/* header styleing */
+
+.homeport{ 
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+.img1 ,.img2{
+    width: 650px;
+    height: 500px;
+    opacity: 0.6;
+    position: relative;
+}
+.box1,.box2{
+    width: 600px;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2px;
+    text-align: center;
+}
+.img1:hover{
+    opacity: 1;
+}
+.heading{
+    position: absolute;
+    margin-top: 230px;
+    font-size: 70px;
+}
+/* 3rd box */
+.box4{
+    margin-top: 30px;
+    width: 100%;
+    height: 300px;
+    background-color: gainsboro;
+    text-align: center;
+    padding-top: 40px;
+    
+}
+h1{
+    color: red;
+    
+}
+.logoimages{
+    width: 100px;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+/* 4th box */
+footer{
+    background-color: black;
+    height: 50px;
+    text-align: center;
+    margin-top: 100px;
+}
+p{
+    color: red;
+}
+ /* contact form design */
+
+form{
+    height: 700px;
+    margin-top: 50px;
+}
+/* contact for styling */
+
+/* about page styling */
+.mainabout{
+    height: 700px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.about{
+    width: 500px;
+    padding-top: 100px ;
+}
+/* about page styling */
+
+/* service page styling */
+.mainservice{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 800px;
+    align-items: center;
+}
+.service{
+    margin-top: 20px;
+    width: 500px;
+}
+/* service page styling */
+
+.mainport{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 800px;
+}
+.port{
+    width: 220px;
+    padding-top: 20px;
+}
